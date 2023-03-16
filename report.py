@@ -7,7 +7,7 @@ def reportData(D,conn):
     if(D == 5):
         # Establishing Connection
         # cx_Oracle.init_oracle_client(lib_dir = "/Users/rajatsingh/opt/anaconda3/lib/python3.9/site-packages/sqlalchemy/dialects/oracle/instantclient_19_8")
-        # conn = cx_Oracle.connect('rxb8700/Themintoo1996@acaddbprod.uta.edu:1523/pcse1p.data.uta.edu')
+        # conn = cx_Oracle.connect('username/yourpassword@acaddbprod.uta.edu:1523/pcse1p.data.uta.edu')
         # print(conn.version)
         
         curr = conn.cursor()
