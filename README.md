@@ -6,15 +6,15 @@ The data of a customer can be updated or deleted in the database based on the re
 
 Technologies - Python, Oracle, SQL
 
-Extended Entitiy Relationship Diagram - 
+<h2>Extended Entitiy Relationship Diagram</h2>
 
 <img width="620" alt="Screenshot 2023-02-19 at 11 23 15 PM" src="https://user-images.githubusercontent.com/89614144/220016345-87d87b15-2626-4c1d-b29c-b4c3a4e65544.png">
 
-EER To Relational Schema Mapping - 
+<h2>EER To Relational Schema Mapping</h2> 
 
 <img width="878" alt="Screenshot 2023-02-19 at 11 22 15 PM" src="https://user-images.githubusercontent.com/89614144/220016370-4a2bc296-1bde-4afa-9657-e2dd8b163e8c.png">
 
-Design Of Choices - 
+<h2>Design Of Choices</h2> 
 1) Branch is the initial relation of the Bank Enterprise database.  
 2) Branch entity has attributes like Branch_Name as primary key, Assets, and City.  
 3) Branch offers Account which is another entity having Acc_No as the primary key and other 
